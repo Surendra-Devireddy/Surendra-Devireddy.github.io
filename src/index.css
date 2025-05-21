@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-slate-200;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-8 text-slate-800 dark:text-white relative inline-block;
+  }
+  
+  .section-title::after {
+    content: '';
+    @apply absolute w-1/2 h-1 bg-blue-500 dark:bg-blue-400 left-0 -bottom-2;
+  }
+  
+  .nav-link {
+    @apply text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 px-4 py-2 transition-colors duration-200;
+  }
+  
+  .nav-link.active {
+    @apply text-blue-600 dark:text-blue-400 font-medium;
+  }
+  
+  .btn {
+    @apply px-6 py-3 rounded-md font-medium transition-all duration-200 inline-block;
+  }
+  
+  .btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700 text-white shadow-md hover:shadow-lg dark:bg-blue-500 dark:hover:bg-blue-600;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-blue-600 dark:border-blue-500 text-blue-600 dark:text-blue-500 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-500 dark:hover:text-white;
+  }
+  
+  .skill-card {
+    @apply bg-white dark:bg-slate-800 p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 transform hover:-translate-y-1;
+  }
+  
+  .experience-card {
+    @apply bg-white dark:bg-slate-800 p-6 rounded-lg shadow-md mb-6 border-l-4 border-blue-500;
+  }
+  
+  .section {
+    @apply py-20 px-4 md:px-8;
+  }
+}
