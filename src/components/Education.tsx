@@ -12,7 +12,7 @@ const Education: React.FC = () => {
       achievements: ['GPA: 4/4.0']
     },
     {
-      degree: 'Bachelor of Technology in Electrical Engineering',
+      degree: 'Bachelors of Technology in Electrical Engineering',
       institution: 'Sastra Deemed University',
       location: 'Thanjavur, India',
       duration: '2017 - 2021',
