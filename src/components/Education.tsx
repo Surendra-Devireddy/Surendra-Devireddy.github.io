@@ -15,7 +15,7 @@ const Education: React.FC = () => {
       degree: 'Bachelors of Technology in Electrical Engineering',
       institution: 'Sastra Deemed University',
       location: 'Thanjavur, India',
-      duration: '2017 - 2021',
+      duration: '2015 - 2019',
       description: 'Comprehensive study of Electronics, Electrical, Communication and Software engineering.',
       achievements: ['Graduated with First Class Honors']
     }

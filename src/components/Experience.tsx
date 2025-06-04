@@ -4,10 +4,22 @@ import { Calendar, MapPin } from 'lucide-react';
 const Experience: React.FC = () => {
   const experiences = [
     {
-      title: 'Systems Engineer',
-      company: 'Infosys Limited',
-      duration: 'Sep 2021 - Dec 2023',
-      location: 'Chennai, India',
+      title: 'Sr. Full Stack Developer',
+      company: 'BMO Harris Bank',
+      duration: 'Aug 2023 - Till Date',
+      location: 'Chicago, IL',
+      description: [
+        'Led a critical performance optimization initiative for trading system, order execution reducing latency by 20% through the strategic adoption of microservices architecture, significantly enhancing system scalability and resilience.',
+        'Engineered highly resilient microservices architectures, incorporating advanced fault tolerance and self-healing patterns using circuit breakers to maximize uptime and ensure business continuity in distributed environments.',
+        'Architected and developed a library of custom React Hooks to promote code reusability and maintainability, effectively streamlining component logic and enhancing developer efficiency.',
+        'Architected and implemented robust CI/CD pipelines utilizing JIRA and Jenkins to fully automate the seamless deployment of microservices and AWS Lambda functions across diverse development and production environments.'
+      ]
+    },
+    {
+      title: 'Full Stack Developer',
+      company: 'Legacy Health',
+      duration: 'Oct 2021 - July 2023',
+      location: 'Portland, Oregan',
       description: [
         'Lead development of enterprise web applications using React, Spring Boot Microservices and MongoDB',
         'Implemented microservices architecture resulting in 30% improved system performance',
@@ -16,10 +28,22 @@ const Experience: React.FC = () => {
       ]
     },
     {
-      title: 'Programmer Analyst Intern',
-      company: 'Cognizant Technology Solutions',
-      duration: 'Feb 2021 - Aug 2021',
+      title: 'Software Developer',
+      company: 'Sephora',
+      duration: 'Jan 2020 - Sep 2021',
       location: 'Chennai, India',
+      description: [
+        'Developed dynamic user interfaces using React.js, implementing core components, forms, and routing (React-Router) to render interactive content.',
+        'Developed core RESTful services using Spring Boot, facilitating efficient JSON data consumption and production for client-side applications.',
+        'Applied modern Java 8 features (Lambdas, Streams, functional interfaces) to improve code efficiency and readability.',
+        'Managed Oracle databases, including creating tables, triggers, and views, and developing PL/SQL Stored Procedures and complex SQL queries for data manipulation.'
+      ]
+    },
+    {
+      title: 'Software Developer',
+      company: 'Fusion Matricks',
+      duration: 'Jul 2018 - Dec 2019',
+      location: 'Bangalore, India',
       description: [
         'Developed responsive web applications using Angular and Express.js',
         'Created RESTful APIs and implemented authentication systems',
