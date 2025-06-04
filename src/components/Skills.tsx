@@ -48,7 +48,7 @@ const Skills: React.FC = () => {
   return (
     <section id="skills" className="section bg-white dark:bg-slate-900">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-8 text-center text-slate-900 dark:text-white">Skills</h2>
+        <h2 className="section-title">Skills</h2>
         <div className="space-y-10">
           {groupedSkills.map((group, groupIndex) => (
             <div key={groupIndex} className="grid grid-cols-1 md:grid-cols-2 gap-8">
