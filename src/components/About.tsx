@@ -9,7 +9,7 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="md:col-span-2 animate-slide-up">
             <p className="text-lg mb-4 text-slate-700 dark:text-slate-300">
-              I'm a passionate Full Stack Developer with expertise in building robust web applications from front-end to back-end. With 5+ years of experience, I've worked on various projects across different domains, helping businesses transform their ideas into functional, user-friendly applications.
+              I'm a passionate Full Stack Developer with expertise in building robust web applications from front-end to back-end. With 7+ years of experience, I've worked on various projects across different domains, helping businesses transform their ideas into functional, user-friendly applications.
             </p>
             <p className="text-lg mb-4 text-slate-700 dark:text-slate-300">
               I specialize in developing applicatios using Java Spring Boot and Microservice Architecture for Backend and  React, Angular for front-end development. I'm also proficient in database management, cloud services, and DevOps practices.

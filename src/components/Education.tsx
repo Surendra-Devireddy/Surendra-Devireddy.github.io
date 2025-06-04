@@ -22,7 +22,6 @@ const Education: React.FC = () => {
   ];
 
   const certifications = [
-    'AWS Certified Solutions Architect',
     'AWS Certified Developer Associate'
   ];
 
