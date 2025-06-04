@@ -1,9 +1,8 @@
 import React from 'react';
 
-// ✅ Step 1: Define allowed skill category types
 type SkillCategory = 'Backend Development' | 'Frontend Development' | 'Database & Cloud' | 'Others';
 
-// ✅ Step 2: Define the skills object with correct typing
+
 const skills: Record<SkillCategory, string[]> = {
   'Backend Development': [
     'Java(8+,11,17)',
@@ -39,13 +38,12 @@ const skills: Record<SkillCategory, string[]> = {
   ]
 };
 
-// ✅ Step 3: Grouped categories
 const groupedSkills: SkillCategory[][] = [
   ['Backend Development', 'Frontend Development'],
   ['Database & Cloud', 'Others']
 ];
 
-// ✅ Step 4: React component
+
 const Skills: React.FC = () => {
   return (
     <section id="skills" className="section bg-white dark:bg-slate-900">
