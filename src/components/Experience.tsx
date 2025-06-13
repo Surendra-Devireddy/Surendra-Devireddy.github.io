@@ -21,10 +21,10 @@ const Experience: React.FC = () => {
       duration: 'Oct 2021 - July 2023',
       location: 'Portland, Oregan',
       description: [
-        'Lead development of enterprise web applications using React, Spring Boot Microservices and MongoDB',
-        'Implemented microservices architecture resulting in 30% improved system performance',
-        'Mentored junior developers and conducted code reviews to ensure best practices',
-        'Collaborated with product managers to define feature requirements and project timelines'
+        'Worked on backend design and development of a real-time Client Monitoring Dashboard to provide real-time data related to client appointment bookings, form submissions, and session durations and diagnosis reports.',
+        'Ensured robust service quality through rigorous Test-Driven Development (TDD) with JUnit and Mockito, complemented by comprehensive web service validation using SOAP UI and Postman',
+        'Architected a Client Monitoring Dashboard in Angular to allow administrative and support staff of the healthcare platform to view and analyze real-time patient activity, appointment trends, and system health metrics',
+        'Architected and managed robust deployment and automation strategies across Azure public and hybrid cloud environments, overseeing critical infrastructure components including Azure Virtual Machines (VMs), Blob Storage, Azure CDN, and Azure Files'
       ]
     },
     {
@@ -33,10 +33,10 @@ const Experience: React.FC = () => {
       duration: 'Jan 2020 - Sep 2021',
       location: 'Chennai, India',
       description: [
-        'Developed dynamic user interfaces using React.js, implementing core components, forms, and routing (React-Router) to render interactive content.',
-        'Developed core RESTful services using Spring Boot, facilitating efficient JSON data consumption and production for client-side applications.',
-        'Applied modern Java 8 features (Lambdas, Streams, functional interfaces) to improve code efficiency and readability.',
-        'Managed Oracle databases, including creating tables, triggers, and views, and developing PL/SQL Stored Procedures and complex SQL queries for data manipulation.'
+        'Worked on migration of a legacy monolithic application to a modular Spring Boot microservices architecture, improving scalability, fault isolation, and enabling faster release cycles following Agile methodology',
+        'Managed persistence across both relational (Oracle) and NoSQL (MongoDB) databases, implementing JPA for transactional consistency and using Mongo Repository for scalable document storage',
+        'Developed dynamic user interfaces using React.js, implementing core components, forms, and client-side routing with React-Router to deliver a responsive and engaging user experience',
+        'Implemented CI/CD pipelines using Jenkins, automating unit testing, image builds, and deployments to development and staging environments'
       ]
     },
     {
@@ -45,10 +45,10 @@ const Experience: React.FC = () => {
       duration: 'Jul 2018 - Dec 2019',
       location: 'Bangalore, India',
       description: [
-        'Developed responsive web applications using Angular and Express.js',
-        'Created RESTful APIs and implemented authentication systems',
-        'Worked with SQL and NoSQL databases for data storage and retrieval',
-        'Participated in agile development process with bi-weekly sprints'
+        'Participated in the full Software Development Life Cycle (SDLC) within an Agile methodology, contributing to requirements gathering, design, and business reviews',
+        'Applied core Java concepts including Multi-Threading, Exception Handling, and Collection APIs to develop and enhance various application features',
+        'Utilized Jenkins and Maven to manage project builds, automate compilation, handle dependencies, and streamline application deployments',
+        'Conducted rigorous Unit Testing using JUnit to ensure code quality and reliability and collaborated effectively with QA teams for comprehensive system testing'
       ]
     },
   ];
