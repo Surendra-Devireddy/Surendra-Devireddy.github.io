@@ -9,10 +9,10 @@ const Experience: React.FC = () => {
       duration: 'Aug 2023 - Till Date',
       location: 'Chicago, IL',
       description: [
-        'Led a critical performance optimization initiative for trading system, order execution reducing latency by 20% through the strategic adoption of microservices architecture, significantly enhancing system scalability and resilience.',
+        'Developed custom banking menus using Spring Boot and React, reducing response latency by 20% through efficient API design, database query tuning, and frontend rendering enhancements—significantly improving system responsiveness and user experience.',
         'Engineered highly resilient microservices architectures, incorporating advanced fault tolerance and self-healing patterns using circuit breakers to maximize uptime and ensure business continuity in distributed environments.',
         'Architected and developed a library of custom React Hooks to promote code reusability and maintainability, effectively streamlining component logic and enhancing developer efficiency.',
-        'Architected and implemented robust CI/CD pipelines utilizing JIRA and Jenkins to fully automate the seamless deployment of microservices and AWS Lambda functions across diverse development and production environments.'
+        'Integrated Load Balancers, Route 53 DNS configurations, and Amazon SNS for seamless traffic routing, service discovery, and real-time notification handling across distributed cloud-native applications.'
       ]
     },
     {
