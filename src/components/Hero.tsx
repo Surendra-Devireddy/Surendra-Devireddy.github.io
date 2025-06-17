@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
               <a href="#contact" className="btn btn-primary">
                 Contact Me
               </a>
-              <a href="https://drive.google.com/uc?export=download&id=1aQAmktQKsDL0cjxgwWa5_FaZVsIW9Tw7" className="btn btn-outline flex items-center gap-2">
+              <a href="https://drive.google.com/uc?export=download&id=1pmq2_tkFOil0xd7P-UEPxPGzwvdfFqar" className="btn btn-outline flex items-center gap-2">
                 <Download size={18} /> Resume
               </a>
             </div>
