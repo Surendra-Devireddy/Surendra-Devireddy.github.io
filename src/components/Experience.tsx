@@ -31,7 +31,7 @@ const Experience: React.FC = () => {
       title: 'Software Developer',
       company: 'Sephora',
       duration: 'Jan 2020 - Sep 2021',
-      location: 'Chennai, India',
+      location: 'Newyork, NY',
       description: [
         'Worked on migration of a legacy monolithic application to a modular Spring Boot microservices architecture, improving scalability, fault isolation, and enabling faster release cycles following Agile methodology',
         'Managed persistence across both relational (Oracle) and NoSQL (MongoDB) databases, implementing JPA for transactional consistency and using Mongo Repository for scalable document storage',

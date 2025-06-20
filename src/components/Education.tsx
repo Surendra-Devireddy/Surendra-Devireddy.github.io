@@ -9,7 +9,7 @@ const Education: React.FC = () => {
       location: 'Cincinnati, OH',
       duration: 'Jan 2024 - May 2025',
       description: 'Focused on advanced web technologies, distributed systems, and cloud computing. Graduated with distinction.',
-      achievements: ['GPA: 4/4.0']
+      achievements: ['GPA: 4.0/4.0']
     },
     {
       degree: 'Bachelors of Technology in Electrical Engineering',
