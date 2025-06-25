@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://www.linkedin.com/in/surendra-devireddy/"
+                href="https://www.linkedin.com/in/devireddy-surendra/"
                 className="p-2 bg-slate-100 dark:bg-slate-800 rounded-full text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
                 aria-label="LinkedIn"
               >
