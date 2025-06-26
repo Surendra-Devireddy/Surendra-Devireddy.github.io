@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
             <a href="https://github.com/Surendra-Devireddy" className="text-slate-300 hover:text-blue-400 transition-colors">
               <Github size={20} />
             </a>
-            <a href="https://www.linkedin.com/in/surendra-devireddy/" className="text-slate-300 hover:text-blue-400 transition-colors">
+            <a href="https://www.linkedin.com/in/devireddy-surendra/" className="text-slate-300 hover:text-blue-400 transition-colors">
               <Linkedin size={20} />
             </a>
             <a href="mailto:devireddysurendra99@gmail.com" className="text-slate-300 hover:text-blue-400 transition-colors">
